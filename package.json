@@ -1,0 +1,19 @@
+{
+  "name": "code-lines-count",
+  "version": "1.0.0",
+  "description": "Simple app to count code  lines in a giving file ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --config ./jest.config.json --detectOpenHandles",
+    "test:watch": "npm run test -- --watch",
+    "lint": "./node_modules/.bin/eslint loc.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.9.0",
+    "jest": "^26.4.2"
+  },
+  "author": "Bilel kabtni",
+  "license": "MIT"
+}
