@@ -5,6 +5,8 @@ const {codeLineCheck} = require('./loc');
 const args = process.argv.slice(2),
     path = args[0];
 
+    console.log("aaaaaaaaaaa")
+
 if (path) {
     const code = codeLineCheck(path);
     console.log('************************************************************');
